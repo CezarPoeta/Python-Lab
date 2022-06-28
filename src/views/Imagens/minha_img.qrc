@@ -1,5 +1,14 @@
 <RCC>
   <qresource prefix="imagens">
+    <file>CHECKMRK.ICO</file>
+    <file>CLOSE.ICO</file>
+    <file>EDIT.ICO</file>
+    <file>OOFL.ICO</file>
+    <file>PEN05.ICO</file>
+    <file>SAVE.ICO</file>
+    <file>TRASH01.ICO</file>
+    <file>UNDO.ICO</file>
+    <file>WRITE.ICO</file>
     <file>home.png</file>
     <file>icone-contato.png</file>
     <file>icone-endereco.png</file>

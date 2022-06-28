@@ -118,7 +118,7 @@ QToolBox::tab {
            <widget class="QToolBox" name="toolBox">
             <property name="styleSheet">
              <string notr="true">QPushButton:hover {
-    background-color: rgb(223, 223, 223);
+	background-color: rgb(0, 255, 255);
 	border-top-left-radius: 15px
 }
 
@@ -128,7 +128,7 @@ QPushButton {
 }</string>
             </property>
             <property name="currentIndex">
-             <number>1</number>
+             <number>0</number>
             </property>
             <widget class="QWidget" name="page">
              <property name="geometry">
@@ -238,8 +238,8 @@ QPushButton {
               <rect>
                <x>0</x>
                <y>0</y>
-               <width>102</width>
-               <height>629</height>
+               <width>188</width>
+               <height>646</height>
               </rect>
              </property>
              <attribute name="label">
@@ -248,6 +248,18 @@ QPushButton {
              <layout class="QVBoxLayout" name="verticalLayout_3">
               <item>
                <widget class="QPushButton" name="pushButton_5">
+                <property name="minimumSize">
+                 <size>
+                  <width>0</width>
+                  <height>30</height>
+                 </size>
+                </property>
+                <property name="maximumSize">
+                 <size>
+                  <width>16777215</width>
+                  <height>50</height>
+                 </size>
+                </property>
                 <property name="text">
                  <string>Grupo Categorias</string>
                 </property>
@@ -255,6 +267,18 @@ QPushButton {
               </item>
               <item>
                <widget class="QPushButton" name="pushButton_6">
+                <property name="minimumSize">
+                 <size>
+                  <width>0</width>
+                  <height>30</height>
+                 </size>
+                </property>
+                <property name="maximumSize">
+                 <size>
+                  <width>16777215</width>
+                  <height>50</height>
+                 </size>
+                </property>
                 <property name="text">
                  <string>Plano Contas</string>
                 </property>
@@ -262,6 +286,18 @@ QPushButton {
               </item>
               <item>
                <widget class="QPushButton" name="pushButton_7">
+                <property name="minimumSize">
+                 <size>
+                  <width>0</width>
+                  <height>30</height>
+                 </size>
+                </property>
+                <property name="maximumSize">
+                 <size>
+                  <width>16777215</width>
+                  <height>50</height>
+                 </size>
+                </property>
                 <property name="text">
                  <string>Contas</string>
                 </property>
@@ -321,7 +357,7 @@ QPushButton {
            <number>0</number>
           </property>
           <item alignment="Qt::AlignLeft">
-           <widget class="QPushButton" name="pushButton_4">
+           <widget class="QPushButton" name="btn_toggle">
             <property name="maximumSize">
              <size>
               <width>100</width>
