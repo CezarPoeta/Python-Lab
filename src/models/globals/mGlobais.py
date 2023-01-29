@@ -8,7 +8,7 @@
 '''
 
 import datetime
-from src.models.database.configs.connection import DBConnection as mDB
+from src.models.database.configs import DBConnection as mDB
 from src.models.globals.mCtrlMessages import Msg_SysFinan as mMsg
 from pprint import pprint
 
